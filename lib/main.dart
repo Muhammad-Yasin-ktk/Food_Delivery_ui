@@ -1,0 +1,20 @@
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:pokemon/screens/home_screen.dart';
+
+
+
+
+
+
+void main() {
+  runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,
+    theme: ThemeData(
+      primaryColor: Colors.deepOrangeAccent,
+      scaffoldBackgroundColor: Colors.grey[50],
+    ),
+    home: HomeScreen(),
+  ));
+}
+
