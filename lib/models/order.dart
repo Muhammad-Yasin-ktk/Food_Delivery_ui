@@ -10,7 +10,9 @@ class Order {
   final String date;
   final int quantity;
 
+
   Order({
+
     this.date,
     this.restaurant,
     this.food,
